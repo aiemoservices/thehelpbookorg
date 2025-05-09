@@ -175,7 +175,7 @@ function copyDirectory($src, $dest) {
             position: fixed;
             top: 10px;
             right: 10px;
-            background-color: #4CAF50;
+            background-color: tomato;
             color: #ffffff;
             padding: 10px 15px;
             border: none;
