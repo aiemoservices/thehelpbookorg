@@ -1,0 +1,469 @@
+Animal Details:
+Type: No
+Sex: male
+Age: 20
+Color: black
+Breed: black
+Health Remarks: No
+Ongoing Treatment: No
+
+Adopter Details:
+Name: No
+Age: 20
+Contact: 9988776655 / 9988775544
+Marital Status: No
+Email: ar@g.com
+Profession: No
+
+Questionnaire Responses:
+1: Have you owned a pet before?
+Response: No
+
+2: Do you have requisite permission from family/landlord?
+Response: No
+
+3: Do you live in a flat or bungalow?
+Response: No
+
+4: Do you have a yard or garden?
+Response: No
+
+5: Is your home pet-proofed?
+Response: No
+
+6: Is your home owned or rented?
+Response: No
+
+7: Contact of landlord (if rented):
+Response: No
+
+8: Are there children in your home? If yes, ages:
+Response: No
+
+9: How many hours per day will the pet be alone?
+Response: No
+
+10: Are you prepared for pet training?
+Response: No
+
+11: If you travel, where will the pet stay?
+Response: No
+
+12: Will you relocate with the pet if you move?
+Response: No
+
+13: Do you have other pets?
+Response: No
+
+14: Do you understand the financial responsibilities of owning a pet?
+Response: No
+
+15: Any other details you'd like to share:
+Response: NO
+
+-----------------------------
+Animal Details:
+Type: Human
+Sex: Virgin
+Age: Infinity 
+Color: Water
+Breed: Mix
+Health Remarks: 1hp
+Ongoing Treatment: 0112553
+
+Adopter Details:
+Name: Dog&#039;s mother
+Age: Infinity 
+Contact: 9893 / Hath me lo mu me free
+Marital Status: Divorced 
+Email: nahibatunga@gmail.com
+Profession: Bakchodi
+
+Questionnaire Responses:
+1: Have you owned a pet before?
+Response: Insaan pala tha 
+
+2: Do you have requisite permission from family/landlord?
+Response: Maa chudaye duniya
+
+3: Do you live in a flat or bungalow?
+Response: Road
+
+4: Do you have a yard or garden?
+Response: 4x4 bathroom 
+
+5: Is your home pet-proofed?
+Response: Waterproof 
+
+6: Is your home owned or rented?
+Response: Kabristan 
+
+7: Contact of landlord (if rented):
+Response: God
+
+8: Are there children in your home? If yes, ages:
+Response: Hn
+
+9: How many hours per day will the pet be alone?
+Response: Lifetime 
+
+10: Are you prepared for pet training?
+Response: Sending him in dog squad 
+
+11: If you travel, where will the pet stay?
+Response: Top of the bus and train
+
+12: Will you relocate with the pet if you move?
+Response: No
+
+13: Do you have other pets?
+Response: Snake&#039;s
+
+14: Do you understand the financial responsibilities of owning a pet?
+Response: Mein gareeb hu
+
+15: Any other details you'd like to share:
+Response: Dhanyawad bakchodi padhne ke liye
+
+-----------------------------
+Animal Details:
+Type: Dog
+Sex: Female
+Age: Approx 3 year 
+Color: Brown &amp;Tan 
+Breed: German Shepherd 
+Health Remarks: Healthy
+Ongoing Treatment: None
+
+Adopter Details:
+Name: Gaurav Sharma
+Age: 26
+Contact: 8982849199 / 0000000000
+Marital Status: Unmarried 
+Email: Gs769040@gmail.com
+Profession: Lawyer
+
+Questionnaire Responses:
+1: Have you owned a pet before?
+Response: Yes
+
+2: Do you have requisite permission from family/landlord?
+Response: Yes
+
+3: Do you live in a flat or bungalow?
+Response: Bunglow
+
+4: Do you have a yard or garden?
+Response: Yard
+
+5: Is your home pet-proofed?
+Response: Yes
+
+6: Is your home owned or rented?
+Response: Owned
+
+7: Contact of landlord (if rented):
+Response: None
+
+8: Are there children in your home? If yes, ages:
+Response: Yes 2.5 years 
+
+9: How many hours per day will the pet be alone?
+Response: Zero 
+
+10: Are you prepared for pet training?
+Response: Yes 
+
+11: If you travel, where will the pet stay?
+Response: With my neighbors or with my property care taker
+
+12: Will you relocate with the pet if you move?
+Response: Yes 
+
+13: Do you have other pets?
+Response: Yes 
+
+14: Do you understand the financial responsibilities of owning a pet?
+Response: Yes
+
+15: Any other details you'd like to share:
+Response: I dont feel some 
+
+-----------------------------
+Animal Details:
+Type: Desi
+Sex: Male
+Age: One Month 
+Color: Black
+Breed: Indian
+Health Remarks: Healthy
+Ongoing Treatment: N/A
+
+Adopter Details:
+Name: Abhishek 
+Age: 36
+Contact: 9039455199 / 8770813811
+Marital Status: Single
+Email: aschintoo@gmail.com
+Profession: Business
+
+Questionnaire Responses:
+1: Have you owned a pet before?
+Response: Yes
+
+2: Do you have requisite permission from family/landlord?
+Response: No
+
+3: Do you live in a flat or bungalow?
+Response: Flat
+
+4: Do you have a yard or garden?
+Response: Yes
+
+5: Is your home pet-proofed?
+Response: Yes
+
+6: Is your home owned or rented?
+Response: Rented
+
+7: Contact of landlord (if rented):
+Response: 9399723474
+
+8: Are there children in your home? If yes, ages:
+Response: Yes
+
+9: How many hours per day will the pet be alone?
+Response: N/A
+
+10: Are you prepared for pet training?
+Response: Yes
+
+11: If you travel, where will the pet stay?
+Response: Yes
+
+12: Will you relocate with the pet if you move?
+Response: No
+
+13: Do you have other pets?
+Response: No
+
+14: Do you understand the financial responsibilities of owning a pet?
+Response: Yes
+
+15: Any other details you'd like to share:
+Response: NA
+
+-----------------------------
+Animal Details:
+Type: Human
+Sex: Trans
+Age: 56
+Color: South Asian 
+Breed: Kali
+Health Remarks: Ma chudi padi hai
+Ongoing Treatment: Hnnn
+
+Adopter Details:
+Name: Deepak kalal
+Age: 56
+Contact: 8888 / 6666
+Marital Status: Unmarried 
+Email: aaa@gnail.som
+Profession: Badmoshi
+
+Questionnaire Responses:
+1: Have you owned a pet before?
+Response: No
+
+2: Do you have requisite permission from family/landlord?
+Response: No
+
+3: Do you live in a flat or bungalow?
+Response: No
+
+4: Do you have a yard or garden?
+Response: No
+
+5: Is your home pet-proofed?
+Response: No
+
+6: Is your home owned or rented?
+Response: No
+
+7: Contact of landlord (if rented):
+Response: No
+
+8: Are there children in your home? If yes, ages:
+Response: No
+
+9: How many hours per day will the pet be alone?
+Response: No
+
+10: Are you prepared for pet training?
+Response: No
+
+11: If you travel, where will the pet stay?
+Response: No
+
+12: Will you relocate with the pet if you move?
+Response: No
+
+13: Do you have other pets?
+Response: No
+
+14: Do you understand the financial responsibilities of owning a pet?
+Response: No
+
+15: Any other details you'd like to share:
+Response: No
+
+-----------------------------
+Animal Details:
+Type: No
+Sex: male
+Age: 20
+Color: black
+Breed: black
+Health Remarks: This
+Ongoing Treatment: This
+
+Adopter Details:
+Name: This
+Age: 20
+Contact: 9988776655 / N/A
+Marital Status: This
+Email: admin@test.local
+Profession: This
+
+Questionnaire Responses:
+1: Have you owned a pet before?
+Response: This
+
+2: Do you have requisite permission from family/landlord?
+Response: This
+
+3: Do you live in a flat or bungalow?
+Response: This
+
+4: Do you have a yard or garden?
+Response: This
+
+5: Is your home pet-proofed?
+Response: This
+
+6: Is your home owned or rented?
+Response: This
+
+7: Contact of landlord (if rented):
+Response: This
+
+8: Are there children in your home? If yes, ages:
+Response: This
+
+9: How many hours per day will the pet be alone?
+Response: This
+
+10: Are you prepared for pet training?
+Response: This
+
+11: If you travel, where will the pet stay?
+Response: This
+
+12: Will you relocate with the pet if you move?
+Response: This
+
+13: Do you have other pets?
+Response: This
+
+14: Do you understand the financial responsibilities of owning a pet?
+Response: This
+
+15: Any other details you'd like to share:
+Response: This
+
+-----------------------------
+Animal Details:
+Type: No
+Sex: male
+Age: 20
+Color: black
+Breed: black
+Health Remarks: This
+Ongoing Treatment: This
+
+Adopter Details:
+Name: This
+Age: 20
+Contact: 9999999999 / N/A
+Marital Status: This
+Email: this@gmail.com
+Profession: This
+
+Questionnaire Responses:
+1: Have you owned a pet before?
+Response: This
+
+2: Do you have requisite permission from family/landlord?
+Response: This
+
+3: Do you live in a flat or bungalow?
+Response: This
+
+4: Do you have a yard or garden?
+Response: This
+
+5: Is your home pet-proofed?
+Response: This
+
+6: Is your home owned or rented?
+Response: This
+
+7: Contact of landlord (if rented):
+Response: This
+
+8: Are there children in your home? If yes, ages:
+Response: This
+
+9: How many hours per day will the pet be alone?
+Response: This
+
+10: Are you prepared for pet training?
+Response: This
+
+11: If you travel, where will the pet stay?
+Response: This
+
+12: Will you relocate with the pet if you move?
+Response: This
+
+13: Do you have other pets?
+Response: This
+
+14: Do you understand the financial responsibilities of owning a pet?
+Response: Ths
+
+15: Any other details you'd like to share:
+Response: This
+
+-----------------------------
+Animal Details:
+Type: No
+Sex: male
+Age: 20
+Color: black
+Breed: black
+Health Remarks: This
+Ongoing Treatment: This
+
+Adopter Details:
+Name: This
+Contact: 99999999999
+Email: this@gmail.com
+
+Questionnaire Responses:
+Do you have requisite permission?
+Response: THis
+
+Do you understand financial responsibilities?
+Response: This
+

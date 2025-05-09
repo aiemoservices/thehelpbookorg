@@ -1,0 +1,101 @@
+.content {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+@media (max-width: 800px) {
+    .content {
+        width: 90%;
+        overflow: hidden;
+    }
+}
+
+.content h2 {
+    margin: 40px 0;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.content p, .content ul {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+.content h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.breadcrumb ol {
+        list-style: none;
+        font-size: 14px;
+        margin: 40px 0;
+}
+
+.breadcrumb li {
+            display: inline-block;
+        }
+
+.breadcrumb a {
+            color: #999;
+        }
+
+.breadcrumb a::after {
+            content: '>>';
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+.breadcrumb a:hover {
+            color: #555;
+        }
+
+.head-image {
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.head-image img {
+        width: 400px;
+        height: auto;
+    }
+
+@media (max-width: 600px) {
+    .head-image img {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+.keywords {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.keywords span {
+        transition: 0.2s all ease-in-out;
+        background: #f4f4f4;
+        display: block;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+.keywords span:hover {
+        background: #fc5f7c;
+        color: white;
+    }
