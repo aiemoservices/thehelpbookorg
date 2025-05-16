@@ -1,1 +1,1 @@
-<link rel="stylesheet" href="https://thehelpbook.org/style.css?v16">
+<link rel="stylesheet" href="/style.css?v16">

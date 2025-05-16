@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $extimg = pathinfo($filename, PATHINFO_EXTENSION); // Extracts 'png'
     $imagePath = "../assets/" . strtolower(implode('_', array_slice($words, 0, 5))) . $extimg;
     move_uploaded_file($_FILES["image"]["tmp_name"], $imagePath);
-    $imageUrl = "https://thehelpbook.org/assets/" . strtolower(implode('_', array_slice($words, 0, 5))) . $extimg;
+    $imageUrl = "https://thehelpbook.org/assets/posts/" . strtolower(implode('_', array_slice($words, 0, 5))) . $extimg;
 
     // Generate HTML content for the new post
     $html = "<!DOCTYPE html>

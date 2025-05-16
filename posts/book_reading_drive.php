@@ -50,7 +50,7 @@
     <!-- Main Content -->
     <article>
         <header>
-            <h1>"Once you learn to read, you will be forever free": Book's Reading Drive</h1>
+            <h1>Once you learn to read, you will be forever free": Book's Reading Drive</h1>
             <p><strong>Author:</strong> The HelpBook Foundation | <strong>Date:</strong> 22-12-2024</p>
         </header>
 
