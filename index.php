@@ -274,7 +274,8 @@
           <span
             class="absolute bottom-0 left-0 w-full h-2 bg-green-500 transform origin-left transition-transform duration-300 hover:scale-x-110"></span>
         </h2>
-        <p class="text-xl text-gray-600 mt-6">The Helpbook Foundation is a community-driven non-profit organization
+        <p class="text-xl text-gray-600 mt-6 text-justify">The Helpbook Foundation is a community-driven non-profit
+          organization
           committed to empowering underprivileged individuals through education, health support, and skill development.
           We work at the grassroots level to bring real change, focusing on creating opportunities for children, youth,
           and families in need. With a network of dedicated volunteers and supporters, we aim to build a more inclusive,
@@ -449,7 +450,7 @@
           <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-colors cursor-pointer group">
             <a class="flex items-center" href="https://www.youtube.com/shorts/Om-0qaq2-0g" target="_blank">
               <div
-                class="w-12 h-12 rounded-full bg-green-600 flex items-center justify-center mr-4 group-hover:bg-green-500 transition-colors">
+                class="w-12 h-12 rounded-md md:rounded-full bg-green-600 flex items-center justify-center mr-4 group-hover:bg-green-500 transition-colors">
                 <span class="material-symbols-outlined text-white">play_arrow</span>
               </div>
               <div>
@@ -461,7 +462,7 @@
           <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-colors cursor-pointer group">
             <a class="flex items-center" href="https://www.youtube.com/shorts/Tb2gjYW741I" target="_blank">
               <div
-                class="w-12 h-12 rounded-full bg-green-600 flex items-center justify-center mr-4 group-hover:bg-green-500 transition-colors">
+                class="w-12 h-12 rounded-md md:rounded-full bg-green-600 flex items-center justify-center mr-4 group-hover:bg-green-500 transition-colors">
                 <span class="material-symbols-outlined text-white">play_arrow</span>
               </div>
               <div>
@@ -473,7 +474,7 @@
           <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-colors cursor-pointer group">
             <a class="flex items-center" href="https://www.youtube.com/shorts/vlmMnrjZv0Y" target="_blank">
               <div
-                class="w-12 h-12 rounded-full bg-green-600 flex items-center justify-center mr-4 group-hover:bg-green-500 transition-colors">
+                class="w-12 h-12 rounded-md md:rounded-full bg-green-600 flex items-center justify-center mr-4 group-hover:bg-green-500 transition-colors">
                 <span class="material-symbols-outlined text-white">play_arrow</span>
               </div>
               <div>
@@ -494,14 +495,14 @@
   <section class="mx-auto p-6 w-full rounded-lg bg-[#eee]">
     <div class="form-header my-4 text-center">
       <h2 class="text-4xl font-bold mb-2 relative inline-block">
-        FAQs - Frequently Asked Question
+        FAQs
       </h2>
     </div>
 
     <div class="space-y-4 md:max-w-4xl mx-auto">
       <!-- FAQ Item Template -->
       <details
-        class="border border-l-4 border-l-red-500 border-gray-300 rounded-lg p-4 group overflow-hidden bg-white shadow-sm">
+        class="border border-l-4 border-l-green-300 border-gray-300 rounded-lg p-4 group overflow-hidden bg-white shadow-sm">
         <summary class="flex items-center justify-between cursor-pointer font-medium text-gray-800 focus:outline-none">
           What is the Helpbook Foundation’s mission?
           <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-600">
@@ -515,7 +516,7 @@
       </details>
 
       <details
-        class="border border-l-4 border-l-blue-500 border-gray-300 rounded-lg p-4 group overflow-hidden bg-white shadow-sm">
+        class="border border-l-4 border-l-green-300 border-gray-300 rounded-lg p-4 group overflow-hidden bg-white shadow-sm">
         <summary class="flex items-center justify-between cursor-pointer font-medium text-gray-800 focus:outline-none">
           How can I donate books or toys?
           <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-600">
@@ -530,7 +531,7 @@
       </details>
 
       <details
-        class="border border-l-4 border-l-yellow-500 border-gray-300 rounded-lg p-4 group overflow-hidden bg-white shadow-sm">
+        class="border border-l-4 border-l-green-300 border-gray-300 rounded-lg p-4 group overflow-hidden bg-white shadow-sm">
         <summary class="flex items-center justify-between cursor-pointer font-medium text-gray-800 focus:outline-none">
           Can I contribute financially to the foundation?
           <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-600">
@@ -544,7 +545,7 @@
       </details>
 
       <details
-        class="border border-l-4 border-l-green-500 border-gray-300 rounded-lg p-4 group overflow-hidden bg-white shadow-sm">
+        class="border border-l-4 border-l-green-300 border-gray-300 rounded-lg p-4 group overflow-hidden bg-white shadow-sm">
         <summary class="flex items-center justify-between cursor-pointer font-medium text-gray-800 focus:outline-none">
           How do you ensure donations reach the children?
           <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-600">
