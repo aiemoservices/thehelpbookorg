@@ -2561,7 +2561,7 @@ textarea {
         flex-direction: column;
         align-items: flex-start;
         gap: 50px;
-        padding: 50px;
+        padding: 20px;
         margin-top: -10px;
     }
 

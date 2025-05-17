@@ -374,7 +374,7 @@
       <!-- Volunteership Card -->
       <div class="flex flex-col items-center">
         <div class="w-full h-44 mb-4 overflow-hidden rounded-lg">
-          <img src="/assets/join/first.jpg" alt="Volunteer supporting community"
+          <img src="/assets/join/second.jpg" alt="Volunteer supporting community"
             class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 ease-in-out" />
         </div>
         <h3 class="text-xl font-semibold text-[#fc5f7c] mb-2">Volunteer</h3>
@@ -392,7 +392,7 @@
       <!-- Internship Card -->
       <div class="flex flex-col items-center">
         <div class="w-full h-44 mb-4 overflow-hidden rounded-lg">
-          <img src="/assets/join/second.jpg" alt="Interns planning project"
+          <img src="/assets/join/first.jpg" alt="Interns planning project"
             class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 ease-in-out" />
         </div>
         <h3 class="text-xl font-semibold text-[#fc5f7c] mb-2">Internship</h3>
@@ -686,7 +686,7 @@
       background: #eee;
       color: #444;
       position: fixed;
-      bottom: 50px;
+      bottom: 30px;
       right: 40px;
       padding: 28px;
       transition: 0.3s all;
@@ -753,7 +753,7 @@
       .joinPopupNew {
         width: 90%;
         right: 5%;
-        bottom: 60px;
+        bottom: 30px;
       }
 
       .joinPopupNew .contentP h3 {
