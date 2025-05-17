@@ -9,22 +9,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
   <meta name="description"
-    content="Join the HelpBook Foundation and become part of a community committed to social and environmental impact. Together, we can create positive change.">
+    content="HelpBook Foundation is dedicated to empowering underprivileged children through quality education. Join us in shaping brighter futures with inclusive learning initiatives and community-driven academic support.">
   <meta name="keywords"
-    content="HelpBook Foundation, join us, volunteer, community, social impact, environmental action">
+    content="HelpBook Foundation, children's education, education for all, nonprofit education, literacy, learning support, student sponsorship, school access, educational empowerment, underprivileged students">
 
-  <meta property="og:title" content="Join HelpBook Foundation">
+  <meta property="og:title" content="HelpBook Foundation - Education for Every Child">
   <meta property="og:description"
-    content="Become a member of HelpBook Foundation and contribute to impactful social and environmental change.">
-  <meta property="og:url" content="https://thehelpbook.org/join.php">
+    content="Transforming lives through education. HelpBook Foundation provides learning opportunities to children in need. Be part of the movement to educate every child.">
+  <meta property="og:url" content="https://thehelpbook.org/">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://thehelpbook.org/assets/logo.png">
+  <meta property="og:image" content="https://thehelpbook.org/assets/place.jpg">
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Join HelpBook Foundation">
+  <meta name="twitter:title" content="HelpBook Foundation - Education for Every Child">
   <meta name="twitter:description"
-    content="Become a member of HelpBook Foundation and contribute to impactful social and environmental change.">
-  <meta name="twitter:image" content="https://thehelpbook.org/assets/logo.png">
+    content="Empowering young minds through education. Support HelpBook Foundation in providing quality education to underserved communities.">
+  <meta name="twitter:image" content="https://thehelpbook.org/assets/place.jpg">
 
   <?php include 'metacommon.php'; ?>
 </head>
@@ -104,10 +103,10 @@
     }
   </style>
 
-  <script src="https://cdn.tailwindcss.com"></script>
 
   <div class="form-container">
-    <form action="./admin/joinReq.php" method="POST" id="joinUsForm">
+    <form action="./admin/join.php" method="POST" id="joinUsForm">
+      <script src="https://cdn.tailwindcss.com"></script>
       <h2 class="text-4xl font-bold center mb-2 relative inline-block">
         Join Us - The HelpBook Foundation
         <span

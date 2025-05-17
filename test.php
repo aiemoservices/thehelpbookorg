@@ -4,219 +4,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Help Form</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-  <style>
-    .form-container {
-      width: 100%;
-      max-width: 50%;
-      margin: 0 auto;
-      padding: 20px;
-      border-radius: 8px;
-      margin-top: 100px;
-
-      @media (max-width: 800px) {
-        max-width: 95%;
-      }
-    }
-
-    h2 {
-      color: #fc5f7c;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    label {
-      display: block;
-      margin-top: 10px;
-      color: #555;
-    }
-
-    input,
-    select {
-      width: 100%;
-      padding: 10px;
-      margin-top: 5px;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      font-size: 16px;
-    }
-
-    input:focus,
-    select:focus {
-      outline: none;
-      border-color: #fc5f7c;
-    }
-
-    .contains-btn123 {
-      display: flex;
-      justify-content: right;
-      align-items: center;
-      gap: 10px;
-      width: 100%;
-    }
-
-    @media (max-width: 768px) {
-      .contains-btn123 {
-        justify-content: center;
-      }
-    }
-
-    .contains-btn123 button {
-      padding: 8px 14px;
-      margin-top: 20px;
-      background-color: #fc5f7c;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 18px;
-      transition: 0.3s all ease;
-    }
-
-    .contains-btn123 button:hover {
-      background-color: rgb(245, 55, 90);
-    }
-
-    .btn-sb {
-      background-color: #28a745;
-    }
-
-    .submit-button:hover {
-      filter: brightness(10%);
-    }
-  </style>
+  <title>Environment (The Helpbook Vraksharopan) | The Helpbook Foundation</title>
   <?php
 
-  include 'metacommon.php';
+  require 'style.php';
 
   ?>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+
+
+  <?php
+  include 'metacommon.php'
+    ?>
 </head>
 
 <body>
+
   <?php
-  include 'header.php';
+
+  require 'header.php';
+
   ?>
-  <div class="form-container">
-    <form id="helpForm" action="submitHelp.php" method="POST" enctype="multipart/form-data">
-      <script src="https://cdn.tailwindcss.com"></script>
-      <div class="form-header">
-        <h2 class="text-4xl font-bold center mb-2 relative inline-block">
-          Help - The HelpBook Foundation
-          <span
-            class="absolute bottom-0 left-0 w-full h-2 bg-green-500 transform origin-left transition-transform duration-300 hover:scale-x-110"></span>
-        </h2>
+
+  <div class="carousel-container relative w-full overflow-hidden" id="carouselContainer">
+    <div class="carousel-track flex transition-transform duration-1000 ease-in-out" id="carouselTrack">
+      <div class="slide flex-shrink-0 w-full flex justify-center items-center bg-green-500">
+        <img src="/assets/health.webp" class="max-w-full h-auto" />
       </div>
-
-      <br />
-
-      <!-- Personal Details -->
-      <label for="fullName">Full Name: <span class="required">*</span></label>
-      <input type="text" name="fullName" class="form-control" placeholder="Enter your full name" required>
-
-      <label for="email">Email: <span class="required">*</span></label>
-      <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
-
-      <label for="phone">Phone Number: <span class="required">*</span></label>
-      <input type="tel" name="phone" class="form-control p-[10px]" placeholder="Enter your phone number" required>
-
-      <label for="city">City: <span class="required">*</span></label>
-      <input type="text" name="city" class="form-control" placeholder="Enter your city" required>
-
-      <!-- Help Category -->
-      <label for="helpCategory">Select Help Type: <span class="required">*</span></label>
-      <select name="helpCategory" class="form-control p-[10px]" required>
-        <option value="">-- Select One --</option>
-        <option value="donor">I want to be a Donor</option>
-        <option value="needy">I am in Need of Help</option>
-      </select>
-
-      <br>
-      <!-- Conditional Fields (based on selection) -->
-      <div id="donorFields" style="display:none;">
-        <label for="donorType">Type of Donation: <span class="required">*</span></label>
-        <select name="donorType" class="form-control form-control p-[10px]" required>
-          <option value="">-- Select Donation Type --</option>
-          <option value="books">Books</option>
-          <option value="toys">Toys</option>
-          <option value="student_sponsor">Sponsor a Student</option>
-          <option value="other_help">Other (Please Specify Below)</option>
-        </select>
-
-        <label for="donorDetails">Details:</label>
-        <input type="text" name="donorDetails" class="form-control" placeholder="Enter more details...">
-      </div>
-
-      <br>
-
-      <div id="needyFields" style="display:none;">
-        <label for="needyType">Type of Help Needed: <span class="required">*</span></label>
-        <select name="needyType" class="form-control form-control p-[10px]" required>
-          <option value="">-- Select Help Type --</option>
-          <option value="books">Books</option>
-          <option value="pet_help">Help for a Pet</option>
-          <option value="other_help">Other (Please Specify Below)</option>
-        </select>
-        <label for="needyDetails">Details:</label>
-        <input type="text" name="needyDetails" class="form-control" placeholder="Enter more details...">
-      </div>
-
-      <label for="message">Additional Message: <span class="required">*</span></label>
-      <textarea name="message" class="form-control p-[10px]" placeholder="Any extra information..." required></textarea>
-
-      <div class="contains-btn123">
-        <button type="reset" class="btn">Reset</button>
-        <button type="submit" class="btn btn-sb">Submit</button>
-      </div>
-    </form>
+    </div>
   </div>
 
-  <script>
-    // JavaScript Validation
-    document.getElementById("helpForm").addEventListener("submit", function (event) {
-      let valid = true;
-      let fields = document.querySelectorAll("[required]");
 
-      // Loop through all required fields and check if they are empty
-      fields.forEach(function (field) {
-        if (field.value.trim() === "") {
-          valid = false;
-          alert("Please fill out all required fields.");
-          field.focus();
-          event.preventDefault();
-        }
-      });
 
-      if (!valid) {
-        return false;
-      }
-    });
 
-    // Show fields based on the selected help category
-    document.querySelector('select[name="helpCategory"]').addEventListener('change', function () {
-      var donorFields = document.getElementById('donorFields');
-      var needyFields = document.getElementById('needyFields');
-      if (this.value === 'donor') {
-        donorFields.style.display = 'block';
-        needyFields.style.display = 'none';
-      } else if (this.value === 'needy') {
-        needyFields.style.display = 'block';
-        donorFields.style.display = 'none';
-      } else {
-        donorFields.style.display = 'none';
-        needyFields.style.display = 'none';
-      }
-    });
-  </script>
+  <div class="w-full p-6 bg-gradient-to-r from-green-400 to-green-600 shadow-lg overflow-hidden relative">
+    <div class="flex flex-col md:flex-row items-center justify-center text-center gap-8 relative z-10">
+      <div class="w-full md:w-2/3">
+        <h2 class="text-white text-3xl md:text-4xl font-bold mb-4 tracking-tight">From <span class="text-yellow-300">The
+            HelpBook Foundation</span></h2>
+        <p class="text-green-100 text-lg mb-6">The Helpbook Foundation is dedicated to empowering communities through
+          education-first initiatives. It works to improve access to learning for underprivileged children by supporting
+          book drives, scholarships, and digital education. Alongside education, the foundation also addresses
+          environmental sustainability, healthcare, and animal welfare. Believing that small efforts create big change,
+          it promotes community collaboration for a better future.</p>
+        <div class="mt-2">
+
+          <a class="bg-white text-green-800 font-semibold py-3 px-8 rounded-full inline-flex items-center hover:bg-white hover:bg-gray-200 transition-colors duration-300"
+            href="/help.php">
+            <span class="material-symbols-outlined">favorite</span>&nbsp;Help Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <?php
 
-  include 'footer.php';
+  include 'footer.php'
 
-  ?>
-  <script src="./script.js"></script>
+    ?>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <?php require 'script.php'; ?>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
 </body>
 

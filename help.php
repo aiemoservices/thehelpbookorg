@@ -4,9 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Help Form</title>
+    <title>Help Form | The Helpbook Foundation</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <meta name="description"
+        content="HelpBook Foundation is dedicated to empowering underprivileged children through quality education. Join us in shaping brighter futures with inclusive learning initiatives and community-driven academic support.">
+    <meta name="keywords"
+        content="HelpBook Foundation, children's education, education for all, nonprofit education, literacy, learning support, student sponsorship, school access, educational empowerment, underprivileged students">
+
+    <meta property="og:title" content="HelpBook Foundation - Education for Every Child">
+    <meta property="og:description"
+        content="Transforming lives through education. HelpBook Foundation provides learning opportunities to children in need. Be part of the movement to educate every child.">
+    <meta property="og:url" content="https://thehelpbook.org/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://thehelpbook.org/assets/place.jpg">
+
+    <meta name="twitter:title" content="HelpBook Foundation - Education for Every Child">
+    <meta name="twitter:description"
+        content="Empowering young minds through education. Support HelpBook Foundation in providing quality education to underserved communities.">
+    <meta name="twitter:image" content="https://thehelpbook.org/assets/place.jpg">
+
+    <?php
+    include 'metacommon.php';
+    ?>
+
     <style>
         .form-container {
             width: 100%;
@@ -99,7 +120,8 @@
     include 'header.php';
     ?>
     <div class="form-container">
-        <form id="helpForm" action="submitHelp.php" method="POST" enctype="multipart/form-data">
+        <form id="helpForm" action="./admin/help.php" method="POST" enctype="multipart/form-data">
+
             <script src="https://cdn.tailwindcss.com"></script>
             <div class="form-header">
                 <h2 class="text-4xl font-bold center mb-2 relative inline-block">

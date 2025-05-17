@@ -8,20 +8,21 @@
     <?php
 
     require 'style.php';
-    
+
     ?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <?php
-     include 'metacommon.php'
-     ?> </head>
+    include 'metacommon.php'
+        ?>
+</head>
 
 <body>
 
-<?php
+    <?php
 
-include 'header.php'
+    include 'header.php'
 
-?>
+        ?>
 
 
     <div class="margin-50"></div>
@@ -31,16 +32,16 @@ include 'header.php'
     <p style="text-align: center; font-weight: bold;">Page Not Found | <a href="/">Go Back To Home</a></p>
 
 
-<?php
+    <?php
 
-include 'footer.php'
+    include 'footer.php'
 
-?>
+        ?>
 
     <?php
 
-        require 'script.php';
-        
+    require 'script.php';
+
     ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
 </body>

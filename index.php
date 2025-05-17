@@ -2,45 +2,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Helpbook Foundation | Home</title>
-    <?php
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Helpbook Foundation | Home</title>
+  <?php
 
-    require 'style.php';
-    
+  require 'style.php';
+
+  ?>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <meta name="description"
+    content="HelpBook Foundation is dedicated to empowering underprivileged children through quality education. Join us in shaping brighter futures with inclusive learning initiatives and community-driven academic support.">
+  <meta name="keywords"
+    content="HelpBook Foundation, children's education, education for all, nonprofit education, literacy, learning support, student sponsorship, school access, educational empowerment, underprivileged students">
+
+  <meta property="og:title" content="HelpBook Foundation - Education for Every Child">
+  <meta property="og:description"
+    content="Transforming lives through education. HelpBook Foundation provides learning opportunities to children in need. Be part of the movement to educate every child.">
+  <meta property="og:url" content="https://thehelpbook.org/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://thehelpbook.org/assets/place.jpg">
+
+  <meta name="twitter:title" content="HelpBook Foundation - Education for Every Child">
+  <meta name="twitter:description"
+    content="Empowering young minds through education. Support HelpBook Foundation in providing quality education to underserved communities.">
+  <meta name="twitter:image" content="https://thehelpbook.org/assets/place.jpg">
+
+
+  <?php
+  include 'metacommon.php'
     ?>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
-    <meta name="description" content="Welcome to the HelpBook Foundation - a platform for social, environmental, and humanitarian efforts. Join us in making a difference through impactful community-driven actions.">
-    <meta name="keywords" content="HelpBook Foundation, social impact, humanitarian initiatives, community service, environmental action, health support">
-
-    <meta property="og:title" content="HelpBook Foundation - Home">
-    <meta property="og:description" content="Join HelpBook Foundation's mission for social, environmental, and humanitarian betterment. Together, we can make a difference.">
-    <meta property="og:url" content="https://thehelpbook.org/">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://thehelpbook.org/assets/images/tree9.webp">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="HelpBook Foundation - Home">
-    <meta name="twitter:description" content="Join HelpBook Foundation's mission for social, environmental, and humanitarian betterment. Together, we can make a difference.">
-    <meta name="twitter:image" content="https://thehelpbook.org/assets/images/tree9.webp">
-
-
-    <?php
-     include 'metacommon.php'
-     ?> </head>
+</head>
 
 <body>
 
-<?php
+  <?php
 
-require 'header.php';
+  require 'header.php';
 
-?>
+  ?>
 
-<div class="carousel-container relative w-full overflow-hidden" id="carouselContainer">
+  <div class="carousel-container relative w-full overflow-hidden" id="carouselContainer">
     <div class="carousel-track flex transition-transform duration-1000 ease-in-out" id="carouselTrack">
       <div class="slide flex-shrink-0 w-full flex justify-center items-center bg-green-500">
         <img src="/assets/slides/one.jpg" class="max-w-full h-auto" />
@@ -369,9 +373,7 @@ require 'header.php';
       <!-- Volunteership Card -->
       <div class="flex flex-col items-center">
         <div class="w-full h-44 mb-4 overflow-hidden rounded-lg">
-          <img
-            src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
-            alt="Volunteer supporting community"
+          <img src="/assets/tree_plantation.webp" alt="Volunteer supporting community"
             class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 ease-in-out" />
         </div>
         <h3 class="text-xl font-semibold text-[#fc5f7c] mb-2">Volunteer</h3>
@@ -389,9 +391,7 @@ require 'header.php';
       <!-- Internship Card -->
       <div class="flex flex-col items-center">
         <div class="w-full h-44 mb-4 overflow-hidden rounded-lg">
-          <img
-            src="https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
-            alt="Interns planning project"
+          <img src="/assets/garden_transform.webp" alt="Interns planning project"
             class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 ease-in-out" />
         </div>
         <h3 class="text-xl font-semibold text-[#fc5f7c] mb-2">Internship</h3>
@@ -408,9 +408,7 @@ require 'header.php';
       <!-- Membership Card -->
       <div class="flex flex-col items-center">
         <div class="w-full h-44 mb-4 overflow-hidden rounded-lg">
-          <img
-            src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=1632&q=80"
-            alt="Supporters together for cause"
+          <img src="/assets/IMG_2954.webp" alt="Supporters together for cause"
             class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 ease-in-out" />
         </div>
         <h3 class="text-xl font-semibold text-[#fc5f7c] mb-2">Member</h3>
@@ -493,10 +491,86 @@ require 'header.php';
     </div>
   </section>
 
+  <section class="mx-auto p-6 w-full rounded-lg bg-[#eee]">
+    <div class="form-header my-4 text-center">
+      <h2 class="text-4xl font-bold mb-2 relative inline-block">
+        FAQs - Frequently Asked Question
+      </h2>
+    </div>
 
-  <section class="bg-[#eee] py-20 px-6 sm:px-12 mb-[-20px] text-center">
+    <div class="space-y-4 md:max-w-4xl mx-auto">
+      <!-- FAQ Item Template -->
+      <details
+        class="border border-l-4 border-l-red-500 border-gray-300 rounded-lg p-4 group overflow-hidden bg-white shadow-sm">
+        <summary class="flex items-center justify-between cursor-pointer font-medium text-gray-800 focus:outline-none">
+          What is the Helpbook Foundation’s mission?
+          <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-600">
+            expand_more
+          </span>
+        </summary>
+        <p class="mt-2 text-gray-600">
+          Our mission is to provide educational resources and support to children in need, helping them access quality
+          learning materials and opportunities for a brighter future.
+        </p>
+      </details>
+
+      <details
+        class="border border-l-4 border-l-blue-500 border-gray-300 rounded-lg p-4 group overflow-hidden bg-white shadow-sm">
+        <summary class="flex items-center justify-between cursor-pointer font-medium text-gray-800 focus:outline-none">
+          How can I donate books or toys?
+          <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-600">
+            expand_more
+          </span>
+        </summary>
+        <p class="mt-2 text-gray-600">
+          You can donate new or gently used books, educational toys, and school supplies by filling out our
+          <a href="/help.php" class="text-blue-600 underline">Help Form</a>. Our team will guide you on how and where to
+          send your donations.
+        </p>
+      </details>
+
+      <details
+        class="border border-l-4 border-l-yellow-500 border-gray-300 rounded-lg p-4 group overflow-hidden bg-white shadow-sm">
+        <summary class="flex items-center justify-between cursor-pointer font-medium text-gray-800 focus:outline-none">
+          Can I contribute financially to the foundation?
+          <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-600">
+            expand_more
+          </span>
+        </summary>
+        <p class="mt-2 text-gray-600">
+          Yes! We accept monetary donations to help purchase learning materials and support our programs. You can donate
+          securely through our online donation page.
+        </p>
+      </details>
+
+      <details
+        class="border border-l-4 border-l-green-500 border-gray-300 rounded-lg p-4 group overflow-hidden bg-white shadow-sm">
+        <summary class="flex items-center justify-between cursor-pointer font-medium text-gray-800 focus:outline-none">
+          How do you ensure donations reach the children?
+          <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-600">
+            expand_more
+          </span>
+        </summary>
+        <p class="mt-2 text-gray-600">
+          We collaborate with local schools and trusted partners to distribute donated items directly to children in
+          need, ensuring transparency and impact.
+        </p>
+      </details>
+    </div>
+  </section>
+
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80">
+    <path fill="#eee" fill-opacity="1"
+      d="M0,32L80,42.7C160,53,320,75,480,80C640,85,800,75,960,69.3C1120,64,1280,64,1360,64L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+    </path>
+  </svg>
+
+
+
+
+  <section class="bg-white py-20 px-6 sm:px-12 mb-[-20px] text-center">
     <div class="max-w-2xl mx-auto">
-      <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">Stay Updated!</h2>
+      <h2 class="text-4xl font-bold mb-2 relative inline-block">Stay Updated!</h2>
       <p class="text-lg text-gray-600 mb-8">Subscribe to our newsletter and never miss an update.</p>
 
       <form class="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -512,20 +586,13 @@ require 'header.php';
       <!-- Note -->
       <p class="text-sm text-gray-500 mt-4">
         By subscribing you agree to our
-        <a href="/terms.php" class="text-[#fc5f7c] hover:underline">terms</a>.
+        <a href="/privacy.php" class="text-[#fc5f7c] hover:underline">privacy policy</a>.
         You can <a href="/unsubscribe.php" class="text-[#fc5f7c] hover:underline">unsubscribe</a> anytime.
       </p>
     </div>
   </section>
 
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80">
-    <path fill="#eee" fill-opacity="1"
-      d="M0,32L80,42.7C160,53,320,75,480,80C640,85,800,75,960,69.3C1120,64,1280,64,1360,64L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
-    </path>
-  </svg>
-
-
-  <section class="md:w-[80%] w-[100%] mt-8 mb-[-30px] mx-auto pt-20 bg-white">
+  <section class="md:w-[80%] w-[100%] mb-[-30px] mx-auto pt-20 bg-white">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
         <h2 class="text-3xl md:text-4xl font-bold mb-4">Stories of Impact</h2>
@@ -599,175 +666,124 @@ require 'header.php';
   </section>
 
 
+  <div class="joinPopupNew">
+    <span class="closeBtnP">x</span>
+    <div class="contentContainsP">
+      <span class="catP">Important</span>
+      <div class="contentP">
+        <h3>
+          Join The Helpbook Foundation to Educate Children, Protect the Environment, and Support Animal Welfare.
+        </h3>
+        <p>Click The Button Below</p>
+      </div>
+      <a class="btnP" href="https://thehelpbook.org/join.php">Join Now →</a>
+    </div>
+  </div>
+  <style>
+    .joinPopupNew {
+      background: #eee;
+      color: #444;
+      position: fixed;
+      bottom: 50px;
+      right: 40px;
+      padding: 28px;
+      transition: 0.3s all;
+      max-width: 90%;
+      width: 330px;
+      line-height: 1.4;
+      z-index: 1000;
+      display: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
 
-<!-- Section Eight -->
+    .joinPopupNew .catP {
+      color: tomato;
+    }
 
+    .joinPopupNew .closeBtnP {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #444;
+      padding: 3px 10px;
+      border-radius: 50%;
+      color: #ccc;
+      border: 1px solid #888;
+      cursor: pointer;
+      text-align: center;
+      font-weight: bold;
+    }
 
-<!--<div class="sepO1"></div>-->
-
-<!--<div class="sectionDonate">-->
-<!--    <div class="right1">-->
-<!--        <h3>Please Donate Now...</h3>-->
-<!--        <br>-->
-<!--        <p>A/C Name:- THE HELPBOOK FOUNDATION</p>-->
-<!--        <p>A/C IFSC:- AUBL0002572</p>-->
-<!--        <p>A/C Number:- 2401257261716171</p>-->
-<!--        <div class="margin-30"></div>-->
-<!--        <small>*Or donate with your details...</small>&nbsp;&nbsp;-->
-<!--        <a class="register" href="./donate.php">Donate Now</a>-->
-<!--    </div>-->
-<!--    <div class="left">-->
-<!--        <img src="./assets/qr.webp" alt="QR Code">-->
-<!--    </div>-->
-<!--</div>-->
-
-<!--<div class="sepO2"></div>-->
-
-
- <!-- Popup Container -->
- <!--<div class="popup-overlay" id="popup">-->
- <!--   <div class="popup-box">-->
-      <!-- Placeholder Image -->
- <!--     <img src="./assets/education.webp" alt="HelpBook Foundation" class="popup-image" />-->
-      
-      <!-- Popup Message -->
- <!--     <span class="popup-message">-->
- <!--       <h2>Support Helpbook</h2>-->
- <!--       <br>-->
- <!--       <p>Your support makes a world of difference! Join us in building a brighter future for our community. Together, we can create positive change. Join Us today!</p>-->
- <!--     </span>-->
-      
-      <!-- Action Buttons -->
- <!--     <div class="popup-buttons">-->
-        <!--<a href="/donate.php" class="popup-button donate-button">Donate</a>-->
- <!--       <a href="/join.php" class="popup-button join-button">Join Us</a>-->
- <!--     </div>-->
-      
-      <!-- Close Button -->
- <!--     <button class="popup-close" onclick="closePopup()">✖</button>-->
- <!--   </div>-->
- <!-- </div>-->
-
-<div class="joinPopupNew">
-		<span class="closeBtnP">x</span>
-		<div class="contentContainsP">
-			<span class="catP">Important</span>
-			<div class="contentP">
-				<h3>
-					Join The Helpbook Foundation to Educate Children, Protect the Environment, and Support Animal Welfare.
-				</h3>
-				<p>Click The Button Below</p>
-			</div>
-			<a class="btnP" href="https://thehelpbook.org/join.php">Join Now →</a>
-		</div>
-	</div>
-	<style>
-		.joinPopupNew {
-			background: #eee;
-			color: #444;
-			position: fixed;
-			bottom: 50px;
-			right: 40px;
-			padding: 28px;
-			transition: 0.3s all;
-			max-width: 90%;
-			width: 330px;
-			line-height: 1.4;
-			z-index: 1000;
-			display: none;
-			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-		}
-
-		.joinPopupNew .catP {
-			color: tomato;
-		}
-
-		.joinPopupNew .closeBtnP {
-			position: absolute;
-			top: 10px;
-			right: 10px;
-			background: #444;
-			padding: 3px 10px;
-			border-radius: 50%;
-			color: #ccc;
-			border: 1px solid #888;
-			cursor: pointer;
-			text-align: center;
-			font-weight: bold;
-		}
-
-		.joinPopupNew .contentContainsP {
-			display: flex;
-			flex-direction: column;
-			gap: 30px;
-		}
+    .joinPopupNew .contentContainsP {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
 
 
-		.joinPopupNew .contentP h3 {
-			margin-bottom: 30px;
-			font-size: 1.5rem;
-		}
+    .joinPopupNew .contentP h3 {
+      margin-bottom: 30px;
+      font-size: 1.5rem;
+    }
 
-		.joinPopupNew .contentP p {
-			font-weight: bold;
-		}
+    .joinPopupNew .contentP p {
+      font-weight: bold;
+    }
 
-		.joinPopupNew .btnP {
-			text-decoration: none;
-			display: inline-block;
-			color: white;
-			text-align: center;
-			background: #15945f;
-			padding: 8px 0;
-			font-weight: bold;
-			border: 2px solid #15945f; 
-		}
+    .joinPopupNew .btnP {
+      text-decoration: none;
+      display: inline-block;
+      color: white;
+      text-align: center;
+      background: #15945f;
+      padding: 8px 0;
+      font-weight: bold;
+      border: 2px solid #15945f;
+    }
 
-		.joinPopupNew .btnP:hover {
-			background: transparent;
-			border: 2px solid #333;
-			color: #333;
-		}
+    .joinPopupNew .btnP:hover {
+      background: transparent;
+      border: 2px solid #333;
+      color: #333;
+    }
 
-		@media (max-width: 600px) {
-			.joinPopupNew {
-				width: 90%;
-				right: 5%;
-				bottom: 60px;
-			}
+    @media (max-width: 600px) {
+      .joinPopupNew {
+        width: 90%;
+        right: 5%;
+        bottom: 60px;
+      }
 
-			.joinPopupNew .contentP h3 {
-				font-size: 1.4rem;
-			}
-		}
-
-
-	</style>
-	<script>
-		const popupNew = document.querySelector(".joinPopupNew");
-		setTimeout(() => {
-			popupNew.style.display = "block";
-		}, 2000)
-		const closepopupNew = document.querySelector(".closeBtnP");
-		closepopupNew.addEventListener("click", () => {
-			popupNew.style.display = "none";
-		})
-	</script>
+      .joinPopupNew .contentP h3 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+  <script>
+    const popupNew = document.querySelector(".joinPopupNew");
+    setTimeout(() => {
+      popupNew.style.display = "block";
+    }, 2000)
+    const closepopupNew = document.querySelector(".closeBtnP");
+    closepopupNew.addEventListener("click", () => {
+      popupNew.style.display = "none";
+    })
+  </script>
 
 
-<?php
+  <?php
 
-include 'footer.php'
+  include 'footer.php'
 
-?>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    
-        <?php
+    ?>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-        require 'script.php';
-        
-        ?>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+  <?php
+
+  require 'script.php';
+
+  ?>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
 </body>
 
 </html>

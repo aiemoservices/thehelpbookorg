@@ -116,11 +116,8 @@ if (basename($_SERVER['PHP_SELF']) == 'footer.php') {
                     document.getElementById("year").textContent = new Date().getFullYear();
                 </script>
 
-                <div class="flex space-x-6 mt-4 md:mt-0"> <a href="/privacy-policy"
-                        class="text-gray-400 text-sm hover:text-white transition-colors">Privacy Policy</a> <a
-                        href="/terms-of-service" class="text-gray-400 text-sm hover:text-white transition-colors">Terms
-                        of
-                        Service</a></div>
+                <div class="flex space-x-6 mt-4 md:mt-0"> <a href="/privacy.php"
+                        class="text-gray-400 text-sm hover:text-white transition-colors">Privacy Policy</a></div>
             </div>
         </div>
     </div>
