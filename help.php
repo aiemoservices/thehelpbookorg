@@ -126,8 +126,6 @@
             <div class="form-header">
                 <h2 class="text-4xl font-bold center mb-2 relative inline-block">
                     Help - The HelpBook Foundation
-                    <span
-                        class="absolute bottom-0 left-0 w-full h-2 bg-green-500 transform origin-left transition-transform duration-300 hover:scale-x-110"></span>
                 </h2>
             </div>
 

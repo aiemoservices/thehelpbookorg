@@ -533,20 +533,6 @@
       <details
         class="border border-l-4 border-l-green-300 border-gray-300 rounded-lg p-4 group overflow-hidden bg-white shadow-sm">
         <summary class="flex items-center justify-between cursor-pointer font-medium text-gray-800 focus:outline-none">
-          Can I contribute financially to the foundation?
-          <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-600">
-            expand_more
-          </span>
-        </summary>
-        <p class="mt-2 text-gray-600">
-          Yes! We accept monetary donations to help purchase learning materials and support our programs. You can donate
-          securely through our online donation page.
-        </p>
-      </details>
-
-      <details
-        class="border border-l-4 border-l-green-300 border-gray-300 rounded-lg p-4 group overflow-hidden bg-white shadow-sm">
-        <summary class="flex items-center justify-between cursor-pointer font-medium text-gray-800 focus:outline-none">
           How do you ensure donations reach the children?
           <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-600">
             expand_more
