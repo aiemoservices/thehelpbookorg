@@ -374,7 +374,7 @@
       <!-- Volunteership Card -->
       <div class="flex flex-col items-center">
         <div class="w-full h-44 mb-4 overflow-hidden rounded-lg">
-          <img src="/assets/tree_plantation.webp" alt="Volunteer supporting community"
+          <img src="/assets/join/first.jpg" alt="Volunteer supporting community"
             class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 ease-in-out" />
         </div>
         <h3 class="text-xl font-semibold text-[#fc5f7c] mb-2">Volunteer</h3>
@@ -392,7 +392,7 @@
       <!-- Internship Card -->
       <div class="flex flex-col items-center">
         <div class="w-full h-44 mb-4 overflow-hidden rounded-lg">
-          <img src="/assets/garden_transform.webp" alt="Interns planning project"
+          <img src="/assets/join/second.jpg" alt="Interns planning project"
             class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 ease-in-out" />
         </div>
         <h3 class="text-xl font-semibold text-[#fc5f7c] mb-2">Internship</h3>
@@ -409,7 +409,7 @@
       <!-- Membership Card -->
       <div class="flex flex-col items-center">
         <div class="w-full h-44 mb-4 overflow-hidden rounded-lg">
-          <img src="/assets/IMG_2954.webp" alt="Supporters together for cause"
+          <img src="/assets/join/third.jpg" alt="Supporters together for cause"
             class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 ease-in-out" />
         </div>
         <h3 class="text-xl font-semibold text-[#fc5f7c] mb-2">Member</h3>

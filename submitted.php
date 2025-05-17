@@ -16,6 +16,7 @@
             font-family: Arial, sans-serif;
         }
 
+
         .message {
             background-color: #d4edda;
             color: #155724;
@@ -25,6 +26,13 @@
             font-size: 20px;
             text-align: center;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .message {
+                width: 90%;
+                margin: 0 auto;
+            }
         }
 
         .countdown {

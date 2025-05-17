@@ -120,7 +120,7 @@
     include 'header.php';
     ?>
     <div class="form-container">
-        <form id="helpForm" action="./admin/help.php" method="POST" enctype="multipart/form-data">
+        <form id="helpForm" action="./admin/help.php" method="POST">
 
             <script src="https://cdn.tailwindcss.com"></script>
             <div class="form-header">
@@ -196,10 +196,34 @@
     </div>
 
     <script>
+        const helpCategory = document.querySelector('select[name="helpCategory"]');
+        const donorFields = document.getElementById('donorFields');
+        const needyFields = document.getElementById('needyFields');
+        const donorType = document.querySelector('select[name="donorType"]');
+        const needyType = document.querySelector('select[name="needyType"]');
+
+        helpCategory.addEventListener('change', function () {
+            if (this.value === 'donor') {
+                donorFields.style.display = 'block';
+                needyFields.style.display = 'none';
+                donorType.setAttribute('required', 'required');
+                needyType.removeAttribute('required');
+            } else if (this.value === 'needy') {
+                donorFields.style.display = 'none';
+                needyFields.style.display = 'block';
+                needyType.setAttribute('required', 'required');
+                donorType.removeAttribute('required');
+            } else {
+                donorFields.style.display = 'none';
+                needyFields.style.display = 'none';
+                donorType.removeAttribute('required');
+                needyType.removeAttribute('required');
+            }
+        });
         // JavaScript Validation
         document.getElementById("helpForm").addEventListener("submit", function (event) {
             let valid = true;
-            let fields = document.querySelectorAll("[required]");
+            let fields = document.querySelectorAll("#helpForm [required]");
 
             // Loop through all required fields and check if they are empty
             fields.forEach(function (field) {
