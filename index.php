@@ -573,8 +573,9 @@
       <h2 class="text-4xl font-bold mb-2 relative inline-block">Stay Updated!</h2>
       <p class="text-lg text-gray-600 mb-8">Subscribe to our newsletter and never miss an update.</p>
 
-      <form class="flex flex-col sm:flex-row items-center justify-center gap-4">
-        <input type="email" placeholder="Enter your email"
+      <form action="/admin/newsletter.php" method="POST"
+        class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <input type="email" name="email" placeholder="Enter your email"
           class="w-full !mb-0 sm:w-auto px-5 py-3 !rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#fc5f7c] transition"
           required />
         <button type="submit"

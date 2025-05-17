@@ -100,11 +100,15 @@ if (basename($_SERVER['PHP_SELF']) == 'footer.php') {
                 <h3 class="text-xl font-bold mb-6">Newsletter</h3>
                 <p class="text-gray-400 mb-4">Join our mailing list to receive updates on our work and how you can help.
                 </p>
-                <form> <input type="email" placeholder="Your email address"
+                <form action="/admin/newsletter.php" method="POST">
+                    <input type="email" name="email" placeholder="Your email address"
                         class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-md focus:ring-2 focus:ring-red-500 focus:border-red-400 mb-0"
-                        required="" /> <button type="submit"
+                        required />
+                    <button type="submit"
                         class="w-full px-4 py-2 bg-red-400 text-white font-medium rounded-md mt-[-20px] hover:bg-red-500 transition-colors">
-                        Subscribe </button> </form>
+                        Subscribe
+                    </button>
+                </form>
             </div>
         </div>
         <div class="border-t border-gray-800 mt-12 pt-8">
