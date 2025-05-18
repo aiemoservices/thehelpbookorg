@@ -414,7 +414,7 @@
         </div>
         <h3 class="text-xl font-semibold text-[#fc5f7c] mb-2">Member</h3>
         <p class="text-md text-gray-600 text-center mb-6">
-          Become a valued member of Helpbook Foundation by contributing a small monthly donation. Your support helps us
+          Become a valued member of Helpbook Foundation by contributing. Your support helps us
           provide education kits, sponsor children, and fund ongoing community development programs.
         </p>
         <a class="bg-[#fc5f7c] hover:bg-red-400 text-white font-medium py-2 px-8 rounded-full transform hover:scale-105 transition-all duration-300 ease-in-out mt-auto"
@@ -533,14 +533,13 @@
       <details
         class="border border-l-4 border-l-green-300 border-gray-300 rounded-lg p-4 group overflow-hidden bg-white shadow-sm">
         <summary class="flex items-center justify-between cursor-pointer font-medium text-gray-800 focus:outline-none">
-          How do you ensure donations reach the children?
+          How can I join The Helpbook Foundation
           <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-gray-600">
             expand_more
           </span>
         </summary>
         <p class="mt-2 text-gray-600">
-          We collaborate with local schools and trusted partners to distribute donated items directly to children in
-          need, ensuring transparency and impact.
+          You can reach us for joining the helpbook foundation via <a href="/join.php">Join Now</a> form.
         </p>
       </details>
     </div>
