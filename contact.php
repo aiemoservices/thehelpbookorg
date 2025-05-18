@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Helpbook Foundation | Contact Us</title>
+    <title>Contact Us | The Helpbook Foundation</title>
     <?php
 
     require 'style.php';
@@ -42,6 +42,12 @@
             margin-top: 5px;
             display: none;
         }
+
+        @media (max-width: 800px) {
+            .wrapperCon {
+                margin-top: 50px;
+            }
+        }
     </style>
 
     <div class="wrapperCon">
@@ -69,7 +75,7 @@
                 <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
                 <span class="error-message" id="errorMessage">Please enter your message.</span>
 
-                <button type="submit">Submit</button>
+                <button class="pointer" type="submit">Submit</button>
             </form>
         </div>
     </div>

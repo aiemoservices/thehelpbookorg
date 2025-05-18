@@ -4,8 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Help Form | The Helpbook Foundation</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Help Now | The Helpbook Foundation</title>
+    <?php
+
+    require 'style.php';
+
+    ?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <meta name="description"
         content="HelpBook Foundation is dedicated to empowering underprivileged children through quality education. Join us in shaping brighter futures with inclusive learning initiatives and community-driven academic support.">
@@ -35,10 +39,11 @@
             margin: 0 auto;
             padding: 20px;
             border-radius: 8px;
-            margin-top: 100px;
+            margin-top: 70px;
 
             @media (max-width: 800px) {
                 max-width: 95%;
+                margin-top: 50px;
             }
         }
 
@@ -125,7 +130,7 @@
             <script src="https://cdn.tailwindcss.com"></script>
             <div class="form-header">
                 <h2 class="text-4xl font-bold center mb-2 relative inline-block">
-                    Help - The HelpBook Foundation
+                    Help Now
                 </h2>
             </div>
 
@@ -187,7 +192,6 @@
                 required></textarea>
 
             <div class="contains-btn123">
-                <button type="reset" class="btn">Reset</button>
                 <button type="submit" class="btn btn-sb">Submit</button>
             </div>
         </form>

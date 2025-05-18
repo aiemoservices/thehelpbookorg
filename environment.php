@@ -58,8 +58,9 @@
   <div class="w-full p-6 bg-gradient-to-r from-green-400 to-green-600 shadow-lg overflow-hidden relative">
     <div class="flex flex-col md:flex-row items-center justify-center text-center gap-8 relative z-10">
       <div class="w-full md:w-2/3">
-        <h2 class="text-white text-3xl md:text-4xl font-bold mb-4 tracking-tight">From <span class="text-yellow-300">The
-            HelpBook Foundation</span></h2>
+        <h2 class="text-white text-3xl md:text-4xl font-bold mb-4 tracking-tight">FROM <span
+                        class="text-yellow-300">THE
+                        HELPBOOK FOUNDATION</span></h2>
         <p class="text-green-100 text-lg mb-6">The Helpbook Foundation is dedicated to empowering communities through
           education-first initiatives. It works to improve access to learning for underprivileged children by supporting
           book drives, scholarships, and digital education. Alongside education, the foundation also addresses

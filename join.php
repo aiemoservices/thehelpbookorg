@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Helpbook Foundation | Join Us Form</title>
+  <title>Join Us | The Helpbook Foundation</title>
   <?php require 'style.php'; ?>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
@@ -38,12 +38,13 @@
       width: 100%;
       max-width: 50%;
       padding: 20px;
-      margin-top: 150px;
+      margin-top: 70px;
     }
 
     @media (max-width: 800px) {
       .form-container {
         max-width: 90%;
+        margin-top: 50px;
       }
     }
 
@@ -108,7 +109,7 @@
     <form action="./admin/join.php" method="POST" id="joinUsForm">
       <script src="https://cdn.tailwindcss.com"></script>
       <h2 class="text-4xl font-bold center mb-2 relative inline-block">
-        Join Us - The HelpBook Foundation
+        Join Us
       </h2>
 
       <label for="name">Name:</label>
