@@ -8,10 +8,11 @@ if (!isset($_SESSION['username'])) {
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blood Donation - admin | The Helpbook Foundation</title>
+    <title>Old Blood Donation Forms | The Helpbook Foundation</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,9 +20,11 @@ if (!isset($_SESSION['username'])) {
             text-align: center;
             padding-top: 50px;
         }
+
         h2 {
             color: #e31d53;
         }
+
         .logout-btn {
             position: fixed;
             top: 10px;
@@ -33,49 +36,62 @@ if (!isset($_SESSION['username'])) {
             border-radius: 4px;
             cursor: pointer;
         }
+
         .logout-btn:hover {
             background-color: #7d2e42;
         }
     </style>
 </head>
+
 <body>
 
-<h2>Welcome, <?= htmlspecialchars($_SESSION['username']) ?>!</h2>
-<div style="text-align: center; width: 100%; margin: 20px 0;"><a href="./welcome.php">Go Back</a></div>
+    <h2>Old Blood Donation Forms</h2>
+    <div style="text-align: center; width: 100%; margin: 20px 0;"><a href="./welcome.php">Go Back</a></div>
 
 
-<style>
+    <style>
         .container {
             max-width: 800px;
             margin: auto;
         }
+
         h2 {
-            color: #e31d53; /* Updated shade */
+            color: #e31d53;
+            /* Updated shade */
             text-align: center;
             margin-bottom: 30px;
         }
+
         .entry {
-            background-color: #f8e9f0; /* Light background */
+            background-color: #f8e9f0;
+            /* Light background */
             border: 1px solid #d6a5bc;
             border-radius: 8px;
             padding: 15px;
             margin-bottom: 20px;
         }
+
         .entry h3 {
-            color: #7d2e42; /* Darker for entry title */
+            color: #7d2e42;
+            /* Darker for entry title */
             margin-top: 0;
         }
+
         .entry p {
             margin: 5px 0;
         }
+
         .label {
             font-weight: bold;
-            color: #7d2e42; /* Same shade for labels */
+            color: #7d2e42;
+            /* Same shade for labels */
         }
+
         .email-link {
             color: #1e88e5;
             text-decoration: none;
         }
+
         .email-link:hover {
             text-decoration: underline;
         }
@@ -94,7 +110,7 @@ if (!isset($_SESSION['username'])) {
                 if (!empty(trim($entry))) {
                     echo "<div class='entry'>";
                     $lines = explode("\n", trim($entry));
-                    
+
                     foreach ($lines as $line) {
                         $parts = explode(": ", $line, 2);
                         if (count($parts) == 2) {
@@ -125,7 +141,7 @@ if (!isset($_SESSION['username'])) {
                 if (!empty(trim($entry))) {
                     echo "<div class='entry'>";
                     $lines = explode("\n", trim($entry));
-                    
+
                     foreach ($lines as $line) {
                         $parts = explode(": ", $line, 2);
                         if (count($parts) == 2) {
@@ -149,9 +165,10 @@ if (!isset($_SESSION['username'])) {
     </div>
 
 
-<form action="logout.php" method="post">
-    <button type="submit" class="logout-btn">Logout</button>
-</form>
+    <form action="logout.php" method="post">
+        <button type="submit" class="logout-btn">Logout</button>
+    </form>
 
 </body>
+
 </html>
