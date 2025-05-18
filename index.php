@@ -539,7 +539,8 @@
           </span>
         </summary>
         <p class="mt-2 text-gray-600">
-          You can reach us for joining the helpbook foundation via <a href="/join.php">Join Now</a> form.
+          You can reach us for joining the helpbook foundation via <a href="/join.php" class="text-blue-300">Join
+            Now</a> form.
         </p>
       </details>
     </div>
