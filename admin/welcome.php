@@ -106,7 +106,7 @@ if (!isset($_SESSION['username'])) {
 
         <div class="section">
             <h2>Join Applications</h2>
-            <?php renderSubmissions("Join.txt"); ?>
+            <?php renderSubmissions("join.txt"); ?>
         </div>
     </div>
 
@@ -146,20 +146,28 @@ if (!isset($_SESSION['username'])) {
             $lines = explode("\n", trim($entry));
             $data = [];
             foreach ($columns as $col) {
-                $data[$col] = ''; // Default empty
+                $data[$col] = ''; // Initialize with empty value
             }
+
+            $currentKey = null;
             foreach ($lines as $line) {
-                $parts = explode(':', $line, 2);
-                if (count($parts) == 2) {
-                    $key = trim($parts[0]);
-                    $value = trim($parts[1]);
-                    $data[$key] = $value;
+                if (strpos($line, ':') !== false) {
+                    $parts = explode(':', $line, 2);
+                    if (count($parts) === 2) {
+                        $key = trim($parts[0]);
+                        $value = trim($parts[1]);
+                        $data[$key] = $value;
+                        $currentKey = $key;
+                    }
+                } elseif ($currentKey !== null) {
+                    // Append line to the current key's value
+                    $data[$currentKey] .= "\n" . trim($line);
                 }
             }
 
             echo '<tr>';
             foreach ($columns as $col) {
-                echo '<td>' . htmlspecialchars($data[$col]) . '</td>';
+                echo '<td>' . nl2br(htmlspecialchars($data[$col])) . '</td>';
             }
             echo '</tr>';
         }
@@ -167,6 +175,7 @@ if (!isset($_SESSION['username'])) {
         echo '</tbody></table></div>';
     }
     ?>
+
 
     <form action="logout.php" method="post">
         <button type="submit" class="logout-btn">Logout</button>
