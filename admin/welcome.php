@@ -177,7 +177,7 @@ if (!isset($_SESSION['username'])) {
     ?>
 
     <div class="text-center">
-        <a href="./old/welcome.php">View Old Data (Before May 2025)</a>
+        <a href="./old/welcome.php">View Old Data Before May 2025</a>
     </div>
 
 
