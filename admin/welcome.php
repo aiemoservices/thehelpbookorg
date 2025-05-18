@@ -176,8 +176,12 @@ if (!isset($_SESSION['username'])) {
     }
     ?>
 
+    <div class="text-center">
+        <a href="./old/welcome.php">View Old Data (Before May 2025)</a>
+    </div>
 
-    <form action="logout.php" method="post">
+
+    <form action="logout.php" method="post">)
         <button type="submit" class="logout-btn">Logout</button>
     </form>
 
